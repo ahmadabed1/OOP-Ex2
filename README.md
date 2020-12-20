@@ -56,7 +56,7 @@ when the game start run, you will got a new game frame for the game , which has 
 	2. Save game - menu item to save the graph in json format
 	3. exit - menu item to exit the game
 - Game:
-	1.start game - menu item to start/run the game
+	1. start game - menu item to start/run the game
 	2. stop game - menu item to stop/end the game 
 	3. add agent - menu item to locat new agent on the graph
 
