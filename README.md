@@ -50,6 +50,8 @@ also , the game has an timer for the end of the game , if the time up then the g
 
 ## how to play
 at first you need to run the game , you have to option to run the game , you can use the jar file to run it , or run it by the basic way which is going to Ex2.java file and run it.\
+![firstPic](https://user-images.githubusercontent.com/73795045/102718525-43fae600-42f1-11eb-95d8-e288c82c1c3e.png)
+
 when the game start run, you will got a new game frame for the game , which has a bar to run the game , this bar give you those options:
 - File: this menu for basic operation , which it has:
 	1. Load game - menu item to choose which scenario to play with
