@@ -21,8 +21,8 @@ this project splitted for two parts:
 First part:
 this part Specific to build graph propreties.
 it has three basic interfces:
-1. node_data :represents the set of operations applicable on a node (vertex) in a (directional) weighted graph contains a key, weight, info, tag.
-2.directed_weighted_graph: represents a directional weighted graph ,has a road-system or communication network in mind ,it support a large number of nodes (over 100,000).it based on an efficient compact representation.
+1. node_data :represents the set of operations applicable on a node (vertex) in a (directional) weighted graph contains a key, weight, info, tag.\
+2.directed_weighted_graph: represents a directional weighted graph ,has a road-system or communication network in mind ,it support a large number of nodes (over 100,000).it based on an efficient compact representation.\
 3.dw_graph_algorithms:  represents a Directed Weighted Graph Theory Algorithms contains copy, init, isConnected, shortestPathDist, List<node_data> shortestPath(int src, int dest), Save(file)-JSON file, Load(file)-JSON file.
 
 Secound part:
