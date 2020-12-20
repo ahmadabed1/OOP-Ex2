@@ -55,13 +55,17 @@ at first you need to run the game , you have to option to run the game , you can
 when the game start run, you will got a new game frame for the game , which has a bar to run the game , this bar give you those options:
 - File: this menu for basic operation , which it has:
 	1. Load game - menu item to choose which scenario to play with
+	![Untitled](https://user-images.githubusercontent.com/73795045/102718706-2e39f080-42f2-11eb-85ce-e0b61cc537e9.png)
+
 	2. Save game - menu item to save the graph in json format
+	![asdasd](https://user-images.githubusercontent.com/73795045/102718723-4e69af80-42f2-11eb-8d93-65a20f139018.png)
 	3. exit - menu item to exit the game
 - Game:  this menu for main operation , which is:
 ![Second](https://user-images.githubusercontent.com/73795045/102718550-6856c280-42f1-11eb-8739-5d3bef764091.png)
 	1. start game - menu item to start/run the game
 	2. stop game - menu item to stop/end the game 
 	3. add agent - menu item to locat new agent on the graph
+	![Unsadastitled](https://user-images.githubusercontent.com/73795045/102718746-5e818f00-42f2-11eb-9642-b4f77866fe43.png)
 
 after chosen the game scenario and filling it's agents , you can run the game by choosing start game menu item.
 the game will stop by choosing stop game menu item , or by time up, and the score that you have got will be showin in the consol.
