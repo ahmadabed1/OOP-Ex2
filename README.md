@@ -18,16 +18,17 @@ this project splitted for two parts:
   it has the JFrame and the moving functions , which bulit using the first part.
 
 
-First part:
+* First part:
 this part Specific to build graph propreties.
 it has three basic interfces:
-1. node_data :represents the set of operations applicable on a node (vertex) in a (directional) weighted graph contains a key, weight, info, tag.\
-2. directed_weighted_graph: represents a directional weighted graph ,has a road-system or communication network in mind ,it support a large number of nodes (over 100,000).it based on an efficient compact representation.\
+1. node_data :represents the set of operations applicable on a node (vertex) in a (directional) weighted graph contains a key, weight, info, tag.
+2. directed_weighted_graph: represents a directional weighted graph ,has a road-system or communication network in mind ,it support a large number of nodes (over 100,000).it based on an efficient compact representation.
 3. dw_graph_algorithms:  represents a Directed Weighted Graph Theory Algorithms contains copy, init, isConnected, shortestPathDist, List<node_data> shortestPath(int src, int dest), Save(file)-JSON file, Load(file)-JSON file.
 
-Secound part:
+* Secound part:
 this part is to build the game.
-it has many classes that every one of them complete the other classes to run the game, the class is :
+it has many classes that every one of them complete the other classes to run the game,\
+the class is :
 1. Ex2: which build to start the game.
 2. Ex2_Client: its has all the functions to build the game{ run, moveAgants, nextNode, distCal....) , and have the perpose operations to run the game, which it divide the action beetween other classes.
 3. Arena : it's an helper class which save the the list of agent and pokemon and it locat them on the game map(in the Jframe).
@@ -40,15 +41,15 @@ it has many classes that every one of them complete the other classes to run the
 
 
 
-How the game run:
-the player need to choose the game scenarios , and locat the agent on it , and put start button , then the game will run autumaticlly.
-the movement of the agent to collect the pokemons based on dijkstra-algorithm(to find the shortestes path distance to the pokemons).
+## How the game run:
+the player need to choose the game scenarios , and locat the agent on it , and put start button , then the game will run autumaticlly.\
+the movement of the agent to collect the pokemons based on dijkstra-algorithm(to find the shortestes path distance to the pokemons).\
 also , the game has an timer for the end of the game , if the time up then the game will stop running and the score that the player got will be shown.
 
 
 
-how to play
-at first you need to run the game , you have to option to run the game , you can use the jar file to run it , or run it by the basic way which is going to Ex2.java file and run it.
+## how to play
+at first you need to run the game , you have to option to run the game , you can use the jar file to run it , or run it by the basic way which is going to Ex2.java file and run it.\
 when the game start run, you will got a new game frame for the game , which has a bar to run the game , this bar give you those options:
 - File: this menu for basic operation , which it has:
 	1. Load game - menu item to choose which scenario to play with
