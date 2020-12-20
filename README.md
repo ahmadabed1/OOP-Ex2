@@ -22,21 +22,21 @@ First part:
 this part Specific to build graph propreties.
 it has three basic interfces:
 1. node_data :represents the set of operations applicable on a node (vertex) in a (directional) weighted graph contains a key, weight, info, tag.\
-2.directed_weighted_graph: represents a directional weighted graph ,has a road-system or communication network in mind ,it support a large number of nodes (over 100,000).it based on an efficient compact representation.\
-3.dw_graph_algorithms:  represents a Directed Weighted Graph Theory Algorithms contains copy, init, isConnected, shortestPathDist, List<node_data> shortestPath(int src, int dest), Save(file)-JSON file, Load(file)-JSON file.
+2. directed_weighted_graph: represents a directional weighted graph ,has a road-system or communication network in mind ,it support a large number of nodes (over 100,000).it based on an efficient compact representation.\
+3. dw_graph_algorithms:  represents a Directed Weighted Graph Theory Algorithms contains copy, init, isConnected, shortestPathDist, List<node_data> shortestPath(int src, int dest), Save(file)-JSON file, Load(file)-JSON file.
 
 Secound part:
 this part is to build the game.
 it has many classes that every one of them complete the other classes to run the game, the class is :
-1.Ex2: which build to start the game.
-2.Ex2_Client: its has all the functions to build the game{ run, moveAgants, nextNode, distCal....) , and have the perpose operations to run the game, which it divide the action beetween other classes.
+1. Ex2: which build to start the game.
+2. Ex2_Client: its has all the functions to build the game{ run, moveAgants, nextNode, distCal....) , and have the perpose operations to run the game, which it divide the action beetween other classes.
 3. Arena : it's an helper class which save the the list of agent and pokemon and it locat them on the game map(in the Jframe).
-4.MyFrame: it is the Jframe classs , its mission to Draw the game on our screen to see what going on the game.
+4. MyFrame: it is the Jframe classs , its mission to Draw the game on our screen to see what going on the game.
 	it also has a bar to help as play the game.
 	in this bar we can choose which game scenarios we want to play with, olso we can save the graph, also it give the player option to run the game or stop it , also adding new agents.
 	start Game option will be dependent on number of agent(which need to fill specefic num of agent in every game scenarios).
-5.Cl_Agent: this class represent one agent player , it hold basic data on the agent , like its id , location , direction and speed.
-6.Cl_Pokemon:this class represent one Pokemon player , it hold basic data on it, like its id , location and the edge that have it.
+5. Cl_Agent: this class represent one agent player , it hold basic data on the agent , like its id , location , direction and speed.
+6. Cl_Pokemon:this class represent one Pokemon player , it hold basic data on it, like its id , location and the edge that have it.
 
 
 
