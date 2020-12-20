@@ -1,31 +1,14 @@
-# OOP-Ex2
-## This project has been developed as an assignment in OOP course.
-
-# Pokemon game 
-## what it is?
-It's all about a Pokemon game.\
-We got a graph with unlimited pokemons, and Specific number of agents.\
-We need to locate the agent and run the game , the agents will collect the pokemons one by one, until the time end, every time the agent collect pokemon, other pokemon will appear on the graph.\
-The basic idea is to get a high score, for that we need to collect more pokemons to get a high score, in that we need to locat the agent in correct location.
-
-
-## About the project:-
-this project splitted for two parts:
-- in the first part , i have developed infrastructure for the game.
-  which is depend on three basic interfaces , to get graph propreties.{ node_data, directed_weighted_graph, dw_graph_algorithms}
-
-- in the second part , it is all about the pokemon game.
-  it has the JFrame and the moving functions , which bulit using the first part.
-
-
-* First part:
-this part Specific to build graph propreties.
-it has three basic interfces:
-1. node_data :represents the set of operations applicable on a node (vertex) in a (directional) weighted graph contains a key, weight, info, tag.
+## First Part
+Graph: a set of vertices and edges .(for more info https://en.wikipedia.org/wiki/Graph)
+This part is all about the node data , such as the id node, location of the node, edge's weight, node's info and tag alse we have a hashmap that has two elemnents <Integer, edge_data> 
+We bulid 3 classses:
+1. node_data :represents the set of operations applicable on a node (vertex) in a (directional) weighted graph.
 2. directed_weighted_graph: represents a directional weighted graph ,has a road-system or communication network in mind ,it support a large number of nodes (over 100,000).it based on an efficient compact representation.
-3. dw_graph_algorithms:  represents a Directed Weighted Graph Theory Algorithms contains copy, init, isConnected, shortestPathDist, List<node_data> shortestPath(int src, int dest), Save(file)-JSON file, Load(file)-JSON file.
+3. dw_graph_algorithms:  represents a Directed Weighted Graph Theory Algorithms contains copy, init, isConnected, shortestPathDist, List<node_data> shortestPath(int src, int dest), Save(file)-JSON file, Load(file)-JSON file. (this link explanning the algorthims that we used https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 
-* Secound part:
+
+
+## Secound Part
 this part is to build the game.
 it has many classes that every one of them complete the other classes to run the game,\
 the class is :
@@ -40,35 +23,19 @@ the class is :
 6. Cl_Pokemon:this class represent one Pokemon player , it hold basic data on it, like its id , location and the edge that have it.
 
 
+# Welcome to the Pokémon-Game!
+## What is Pokémon-Game?
+It is a computer game which has developed as an assignment in OOP course.
+In this game you have a 24 scenarios each one has a different starting point, conditions , duration , number of egents , number of pokemons and graph representing game arena.
 
-## How the game run:
-the player need to choose the game scenarios , and locat the agent on it , and put start button , then the game will run autumaticlly.\
-the movement of the agent to collect the pokemons based on dijkstra-algorithm(to find the shortestes path distance to the pokemons).\
-also , the game has an timer for the end of the game , if the time up then the game will stop running and the score that the player got will be shown.
+## What the purpose of this game?
+the purpose of the game is to play a Pokémon-game to collect scores as much as we can, in that we built a game that achieve two missions to have fun and to think in cleverly way!
 
+## How to get more Score?
+We get more scores by collecting more Pokémon's which depends in our first agent locate that we choose.
 
+## How the agents move?
+The agents move by using Dijkstra-Algorithm (is an algorithm for finding the shortest paths between nodes in a graph).
 
-## how to play
-at first you need to run the game , you have to option to run the game , you can use the jar file to run it , or run it by the basic way which is going to Ex2.java file and run it.\
-![firstPic](https://user-images.githubusercontent.com/73795045/102718525-43fae600-42f1-11eb-95d8-e288c82c1c3e.png)
-
-when the game start run, you will got a new game frame for the game , which has a bar to run the game , this bar give you those options:
-- File: this menu for basic operation , which it has:
-	1. Load game - menu item to choose which scenario to play with\
-	![Untitled](https://user-images.githubusercontent.com/73795045/102718706-2e39f080-42f2-11eb-85ce-e0b61cc537e9.png)
-
-	2. Save game - menu item to save the graph in json format\
-	![asdasd](https://user-images.githubusercontent.com/73795045/102718723-4e69af80-42f2-11eb-8d93-65a20f139018.png)
-	
-	3. exit - menu item to exit the game
-- Game:  this menu for main operation , which is:
-![Second](https://user-images.githubusercontent.com/73795045/102718550-6856c280-42f1-11eb-8739-5d3bef764091.png)
-	1. start game - menu item to start/run the game
-	2. stop game - menu item to stop/end the game 
-	3. add agent - menu item to locat new agent on the graph\
-	![Unsadastitled](https://user-images.githubusercontent.com/73795045/102718746-5e818f00-42f2-11eb-9642-b4f77866fe43.png)
-
-after chosen the game scenario and filling it's agents , you can run the game by choosing start game menu item.
-the game will stop by choosing stop game menu item , or by time up, and the score that you have got will be showin in the consol.
-you can choose other game scenario and play the game more and more.
-if you want to exit the game you can put X button or by chosing  exit menu item.
+## How to play the game?
+At the first we open the game, and then choose the game scenarios[0-23] after that we add the locate for every agent then the game will start, in the end you will get your score!
