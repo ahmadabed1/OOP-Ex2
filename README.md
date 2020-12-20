@@ -1,3 +1,6 @@
+# OOP-Ex2
+## This project has been developed as an assignment in OOP course.
+
 ## First Part
 Graph: a set of vertices and edges .(for more info https://en.wikipedia.org/wiki/Graph)
 This part is all about the node data , such as the id node, location of the node, edge's weight, node's info and tag alse we have a hashmap that has two elemnents <Integer, edge_data> 
