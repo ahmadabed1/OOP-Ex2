@@ -59,6 +59,7 @@ when the game start run, you will got a new game frame for the game , which has 
 
 	2. Save game - menu item to save the graph in json format
 	![asdasd](https://user-images.githubusercontent.com/73795045/102718723-4e69af80-42f2-11eb-8d93-65a20f139018.png)
+	
 	3. exit - menu item to exit the game
 - Game:  this menu for main operation , which is:
 ![Second](https://user-images.githubusercontent.com/73795045/102718550-6856c280-42f1-11eb-8739-5d3bef764091.png)
