@@ -1,6 +1,8 @@
 # OOP-Ex2
-# This project has been developed as an assignment in OOP course.
+## This project has been developed as an assignment in OOP course.
 
+# Pokemon game 
+## what it is?
 It's all about a Pokemon game.\
 We got a graph with unlimited pokemons, and Specific number of agents.\
 We need to locate the agent and run the game , the agents will collect the pokemons one by one, until the time end, every time the agent collect pokemon, other pokemon will appear on the graph.\
