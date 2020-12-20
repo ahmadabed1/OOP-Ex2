@@ -31,6 +31,10 @@ public class MyFrame extends JFrame{
 	private Arena _ar;
 	private gameClient.util.Range2Range _w2f;
 	private Ex2_Client ex2Client;
+	
+	Image pc= new ImageIcon("Poke_Ball.png").getImage();
+	Image ts= new ImageIcon("Lincoln's_Pikachu.png").getImage();
+	
 
 	MyFrame(String a) {
 		super(a);
@@ -268,9 +272,9 @@ public class MyFrame extends JFrame{
 				if(c!=null) {
 
 					geo_location fp = this._w2f.world2frame(c);
-					g.fillOval((int)fp.x()-r, (int)fp.y()-r, 2*r, 2*r);
+//					g.fillOval((int)fp.x()-r, (int)fp.y()-r, 2*r, 2*r);
 					//	g.drawString(""+n.getKey(), fp.ix(), fp.iy()-4*r);
-
+					g.drawImage(pc,(int)fp.x()-r, (int)fp.y()-r, 4*r, 4*r , this);
 				}
 			}
 		}
@@ -291,7 +295,9 @@ public class MyFrame extends JFrame{
 			if(c!=null) {
 
 				geo_location fp = this._w2f.world2frame(c);
-				g.fillOval((int)fp.x()-r, (int)fp.y()-r, 2*r, 2*r);
+//				g.fillOval((int)fp.x()-r, (int)fp.y()-r, 2*r, 2*r);
+				g.drawImage(ts,(int)fp.x()-r, (int)fp.y()-r, 9*r, 9*r , this);
+
 			}
 		}
 	}
