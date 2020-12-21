@@ -6,7 +6,7 @@ This part is to build a directional weighted graph.
 Graph: a set of vertices and edges .(for more info https://en.wikipedia.org/wiki/Graph)
 This part is all about the node data , such as the id node, location of the node, edge's weight, node's info and tag alse we have a hashmap that has two elemnents <Integer, edge_data> 
 We bulid 3 classses:
-1. node_data :represents the set of operations applicable on a node (vertex) in a (directional) weighted graph.
+1. 'node_data' :represents the set of operations applicable on a node (vertex) in a (directional) weighted graph.
 2. directed_weighted_graph: represents a directional weighted graph ,has a road-system or communication network in mind ,it support a large number of nodes (over 100,000).it based on an efficient compact representation.
 3. dw_graph_algorithms:  represents a Directed Weighted Graph Theory Algorithms contains copy, init, isConnected, shortestPathDist, List<node_data> shortestPath(int src, int dest), Save(file)-JSON file, Load(file)-JSON file. (this link explanning the algorthims that we used https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 
